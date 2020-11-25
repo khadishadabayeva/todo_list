@@ -36,7 +36,7 @@ export default {
       }
     },
     removeTodo (item) {
-      this.todos = this.todos.filter(_item => _item ==! item)
+      this.todos = this.todos.filter(_item => _item !== item)
     }
   }
 }
