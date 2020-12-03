@@ -26,7 +26,7 @@ export default {
     },
     todoColour() {
       if (this.todo.date.isSame(moment(), 'day')) {
-        return '#faa6'
+        return '#ffe6e6'
       }
       else if (this.todo.date.isBefore(moment(), 'day')) {
         return '#aaa6'

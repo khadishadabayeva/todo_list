@@ -15,7 +15,7 @@
             {{ startingYear + (i - 1)}}
         </option>
     </select>
-    <button class="reset-button" @click="today">T</button>
+    <button class="reset-button" @click="today">Reset</button>
 </div>
 </template>
 
@@ -99,7 +99,7 @@ export default {
 }
 
 .reset-button {
-    background-color: red;
+    background-color:rgb(51, 153, 255);
     border: none;
     outline: none;
 }
